@@ -3,14 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neelmani Skills - Home</title>
-    <!-- Bootstrap CSS -->
+    <title>Contact Us - Neelmani Skills</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
     <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Navigation -->
+    <!-- Navigation (same as index.html) -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
             <a class="navbar-brand" href="index.html">
@@ -22,7 +20,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Home</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">About</a>
@@ -31,48 +29,64 @@
                         <a class="nav-link" href="services.html">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link active" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section class="hero-section bg-light py-5">
-        <div class="container text-center py-5">
-            <h1 class="display-4 fw-bold">Welcome to Neelmani Skills</h1>
-            <p class="lead">Empowering your future with essential skills and training</p>
-            <a href="services.html" class="btn btn-primary btn-lg mt-3">Our Services</a>
-        </div>
-    </section>
-
-    <!-- Features Section -->
+    <!-- Contact Section -->
     <section class="py-5">
         <div class="container">
-            <h2 class="text-center mb-5">Why Choose Us</h2>
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="card h-100">
-                        <div class="card-body text-center">
-                            <h3 class="card-title">Expert Trainers</h3>
-                            <p class="card-text">Learn from industry professionals with years of experience.</p>
-                        </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1 class="display-4 mb-4">Contact Us</h1>
+                    <p class="lead">We'd love to hear from you!</p>
+                    
+                    <div class="mb-4">
+                        <h3>Our Office</h3>
+                        <address>
+                            <strong>Neelmani Skills</strong><br>
+                            123 Skill Street<br>
+                            New Delhi, 110001<br>
+                            India<br><br>
+                            <strong>Phone:</strong> +91 9876543210<br>
+                            <strong>Email:</strong> info@neelmaniskills.com
+                        </address>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <h3>Business Hours</h3>
+                        <p>Monday - Friday: 9:00 AM - 6:00 PM<br>
+                        Saturday: 10:00 AM - 4:00 PM<br>
+                        Sunday: Closed</p>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card h-100">
-                        <div class="card-body text-center">
-                            <h3 class="card-title">Practical Skills</h3>
-                            <p class="card-text">Hands-on training that prepares you for real-world challenges.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card h-100">
-                        <div class="card-body text-center">
-                            <h3 class="card-title">Career Support</h3>
-                            <p class="card-text">We help you transition from learning to earning.</p>
+                
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title mb-4">Send us a message</h3>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Your Name</label>
+                                    <input type="text" class="form-control" id="name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email Address</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="phone" class="form-label">Phone Number</label>
+                                    <input type="tel" class="form-control" id="phone">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Your Message</label>
+                                    <textarea class="form-control" id="message" rows="4" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -80,7 +94,7 @@
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- Footer (same as index.html) -->
     <footer class="bg-dark text-white py-4">
         <div class="container">
             <div class="row">
@@ -112,7 +126,6 @@
         </div>
     </footer>
 
-    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
